@@ -1,0 +1,4 @@
+<svg class="background">
+  <text id="counterLabel" />
+	<rect id="displayToggle" x="5%" y="5%" width="90%" height="90%" opacity="0.15" pointer-events="visible" />
+</svg>

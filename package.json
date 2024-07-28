@@ -1,0 +1,30 @@
+{
+  "name": "fb-counter",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@fitbit/sdk": "~4.2.0",
+    "@fitbit/sdk-cli": "^1.7.3"
+  },
+  "fitbit": {
+    "appUUID": "c6748f4a-8d48-4f3b-9cd1-c62f795439ab",
+    "appType": "app",
+    "appDisplayName": "Counter",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#000000",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini",
+      "mira"
+    ],
+    "i18n": {},
+    "defaultLanguage": "en-US"
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  }
+}
