@@ -17,6 +17,6 @@ counterLabel.text = `${counter}`;
 displayToggle.onclick = () => {
   counter++;
   counterLabel.text = `${counter}`;
-
-  vibration.start("confirmation");
+  vibration.start("bump");
+  vibration.stop();
 }
